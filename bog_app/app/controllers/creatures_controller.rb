@@ -2,8 +2,7 @@ class CreaturesController < ApplicationController
 
   def index
     @creatures = Creature.all
-
-    render :index
+    # render :index
   end
 
 end
