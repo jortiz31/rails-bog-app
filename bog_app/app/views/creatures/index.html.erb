@@ -1,0 +1,11 @@
+
+<div class="row">
+  <div class="col-md-6 col-xs-12">
+    <% @creatures.each do |creature| %>
+      <p>
+        <strong>name: </strong> <%= creature.name %> <br>
+        <strong>description: </strong> <%= creature.description %>
+      </p>
+    <% end %>
+  </div>
+</div>
