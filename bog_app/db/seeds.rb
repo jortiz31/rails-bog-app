@@ -1,2 +1,5 @@
 Creature.create({name: "Luke", description: "Jedi"})
 Creature.create({name: "Darth Vader", description: "Father of Luke"})
+Creature.create({name: "Chewbacca", description: "Han's Homie"})
+Creature.create({name: "Han Solo", description: "Criminal Pilot"})
+Creature.create({name: "Jar Jar Binks", description: "Weird Duck lookin' dude"})
