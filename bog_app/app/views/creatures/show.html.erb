@@ -2,6 +2,7 @@
   <div class="col-md-8">
     <h2> <%= @creature.name %> </h2>
     <h3><small> <%= @creature.description %> </small></h3>
+    <%= button_to "delete", @creature, method: :delete, class: "btn btn-danger" %>
   </div>
 
 </div>
