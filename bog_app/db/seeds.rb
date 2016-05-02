@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Creature.create({name: "Luke", description: "Jedi"})
+Creature.create({name: "Darth Vader", description: "Father of Luke"})
+Creature.create({name: "Gizmo", description: "Mogwai"})
+Creature.create({name: "Jabba the Hut", description: "Fat slug"})
+Creature.create({name: "E.T", description: "Alien from space"})
+Creature.create({name: "Your Mother", description: "just a hoe"})
